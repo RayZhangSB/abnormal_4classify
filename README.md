@@ -4,8 +4,9 @@ codes for abnormal classify
 Description
 ========
     It's a demonstration project,by detecting  image from web video camera . Before the image enters the neural network,
-    I do some image_processing , by detecting multiple ROI windows' value to find out abnormal area. Due to background 
+    I do some image_processing with detecting multiple ROI windows' value to find out abnormal area. Due to background 
     interference is too heavy ,I use double threshold check to insure image which sended into ML is abnormal.
+    main code ----> four_classify/monitor.py
 Dependencies
 =====
     PyQt4
